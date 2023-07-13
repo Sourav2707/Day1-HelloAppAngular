@@ -13,6 +13,7 @@ export class AppComponent {
   title = 'HelloApp';
   imgUrl = "https://www.educationworld.in/wp-content/uploads/2020/06/BridgeLabz-2.jpg";
   url = "https://www.bridgelabz.com/";
+  userName: string = "";
   ngOnInit(): void {
     this.title = "Hello from Bridgelabz"
   }
